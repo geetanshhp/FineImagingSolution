@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent"
+        tools:context=".Products">
+        <View
+            android:layout_height="3dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="#292075">
+        </View>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/idlaserTonerCartridge"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/punjabid"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/lasercartidge"/>
+                <LinearLayout
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:text="Laser Toner"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="23dp"
+                    android:typeface="serif" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:text="Cartridge"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="23dp"
+                        android:typeface="serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/idLaserTonerPowder"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/laserpowder"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+                <LinearLayout
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:text="Laser Toner"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="23dp"
+                        android:typeface="serif" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:text="Powder"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="23dp"
+                        android:typeface="serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/idOpcDrum"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/opcdrum"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+                <TextView
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="OPC Drum "
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="23dp"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/idCartidgeChip"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/laserchip"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+                <TextView
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Cartidge  Chip"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="23dp"/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/idCartidgeAccessories"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/cartidgeacc"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+            <LinearLayout
+                android:layout_marginLeft="14dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Carteidge"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                android:textSize="23dp"/>
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Accessories "
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="23dp"/>
+            </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:id="@+id/idPrinterAccessories"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/roller"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:typeface="serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Printer"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="23dp"/>
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:typeface="serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Accessories "
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="23dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/idTeflonSleeve"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/teflon"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+
+
+
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:typeface="serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Teflon Sleeve"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="23dp"/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+        android:id="@+id/idInkJetInk"
+            android:clickable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10sp"
+            android:layout_margin="5sp"
+            android:layout_gravity="center"
+            android:layout_width="355dp"
+            android:layout_height="150dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:alpha=".85"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/inkjet"
+                    android:layout_margin="20dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:typeface="serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="InkJet Ink"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="23dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="#292075">
+        </View>
+        <View
+            android:layout_height="1dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="#292075">
+        </View>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

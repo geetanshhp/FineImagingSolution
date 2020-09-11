@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".FollowShare">
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/backbutton">
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:src="@drawable/vectorfollow"/>
+
+    <TextView
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="We are available"/>
+    <TextView
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="On every device"/>
+
+    <Button
+
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="Go to website"
+        android:textColor="#fff"
+        android:background="@drawable/shape1"
+        android:textStyle="bold"
+        android:id="@+id/cardbutton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="OR"/>
+    <TextView
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Follow us On"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/instagram"
+            android:background="#FFFFFF"
+            android:src="@drawable/insta"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/facebook"
+            android:background="#FFFFFF"
+            android:src="@drawable/facebook"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/twitter"
+            android:layout_margin="5dp"
+            android:src="@drawable/twitter"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/linkedid"
+            android:src="@drawable/linked"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

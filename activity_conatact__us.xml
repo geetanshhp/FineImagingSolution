@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Conatact_Us">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:text="Fine Imaging Solutions"
+                android:textColor="@color/colorPrimaryDark"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="270dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary">
+            </View>
+            <View
+                android:layout_height="1dp"
+                android:layout_width="270dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary">
+            </View>
+
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:typeface="serif"
+                android:textSize="14dp"
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:text="We're here to answer any questions you may have about Home loan or any services that we offer.\n Reach out to us and we'll respond as soon as we can."
+                android:layout_height="wrap_content" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/iconperson"
+                    android:layout_width="32dp"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp" />
+                <View
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="32dp"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary">
+                </View>
+
+
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:id="@+id/idname"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/iconcontact"
+                    android:layout_width="32dp"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp" />
+                <View
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="32dp"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary">
+                </View>
+
+
+
+                <TextView
+
+                    android:id="@+id/idphone1"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/iconcontact"
+                    android:layout_width="32dp"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp" />
+                <View
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="32dp"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary">
+                </View>
+
+
+
+                <TextView
+                    android:id="@+id/idphone2"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/iconcontact"
+                    android:layout_width="32dp"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp" />
+                <View
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="32dp"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary">
+                </View>
+
+
+
+                <TextView
+                    android:id="@+id/idphone3"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/iconcontact"
+                    android:layout_width="32dp"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp" />
+                <View
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="32dp"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary">
+                </View>
+
+
+
+                <TextView
+                    android:id="@+id/idphone4"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="08dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail" />
+                <View
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="32dp"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary">
+                </View>
+
+
+
+                <TextView
+
+                    android:id="@+id/idemail"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/floatingShare"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/apna"
+                    app:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

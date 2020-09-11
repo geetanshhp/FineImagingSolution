@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carteidgeAccessories">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Cartidge Accessories "
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="260dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp">
+    </View>
+    <View
+        android:layout_width="260dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center">
+    </View>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:id="@+id/imagecartdidgetAcessories1"
+        android:layout_height="290dp" />
+    <TextView
+        android:textColor="@color/colorPrimary"
+       android:layout_margin="04dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:id="@+id/textcartidgeacc1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imagecartdidgetAcessories2"
+        android:layout_height="290dp" />
+    <TextView
+        android:layout_marginBottom="08dp"
+        android:id="@+id/textcartidgeacc2"
+        android:textSize="16dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="04dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>
